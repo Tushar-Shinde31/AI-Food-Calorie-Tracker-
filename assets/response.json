@@ -1,0 +1,32 @@
+{
+  "identifiedFood": "Pepperoni pizza with a thin crust, tomato sauce, mozzarella cheese, and approximately 7 slices of pepperoni. The pizza appears to be approximately 12 inches in diameter.",
+  "image": "https://i.imgur.com/1234567890.jpg",
+  "portionSize": "110",
+  "recognizedServingSize": "220",
+  "nutritionFactsPerPortion": {
+    "calories": "308",
+    "protein": "12",
+    "carbs": "33",
+    "fat": "14",
+    "fiber": "2",
+    "sugar": "4",
+    "sodium": "726",
+    "cholesterol": "32"
+  },
+  "nutritionFactsPer100g": {
+    "calories": "280",
+    "protein": "11",
+    "carbs": "30",
+    "fat": "13",
+    "fiber": "2",
+    "sugar": "4",
+    "sodium": "660",
+    "cholesterol": "29"
+  },
+  "additionalNotes": [
+    "High in sodium.",
+    "Contains gluten (from the crust) and dairy (from the cheese).",
+    "Not vegetarian due to the pepperoni.",
+    "May contain other allergens depending on the ingredients of the sauce and pepperoni."
+  ]
+}
