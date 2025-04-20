@@ -2,7 +2,7 @@
 
 NutriSnap is a powerful React Native app built with Expo that uses the Gemini API to analyze food from a photo. Just snap a picture of your meal, and instantly get insights like calories, nutritional facts, portion size, and more!
 
-![NutriSnap Banner](![cover](https://github.com/user-attachments/assets/6a42cf31-cefa-4df4-9e6d-a9ae62b06fd3)
+(![cover](https://github.com/user-attachments/assets/6a42cf31-cefa-4df4-9e6d-a9ae62b06fd3)
 
 ## 📹 Demo
 
