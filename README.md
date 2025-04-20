@@ -6,7 +6,7 @@ NutriSnap is a powerful React Native app built with Expo that uses the Gemini AP
 
 ## 📹 Demo
 
-Watch the live demo on YouTube: [NutriSnap Demo](https://www.youtube.com/watch?v=YOUR_VIDEO_ID)
+Watch the live demo on YouTube: [NutriSnap Demo](https://youtube.com/shorts/AkMlVtN1F38)
 
 ---
 
