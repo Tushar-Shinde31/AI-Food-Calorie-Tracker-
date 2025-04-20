@@ -1,50 +1,84 @@
-# Welcome to your Expo app 👋
+# 🍽️ NutriSnap
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+NutriSnap is a powerful React Native app built with Expo that uses the Gemini API to analyze food from a photo. Just snap a picture of your meal, and instantly get insights like calories, nutritional facts, portion size, and more!
 
-## Get started
+![NutriSnap Banner](![cover](https://github.com/user-attachments/assets/6a42cf31-cefa-4df4-9e6d-a9ae62b06fd3)
 
-1. Install dependencies
+## 📹 Demo
 
-   ```bash
-   npm install
-   ```
+Watch the live demo on YouTube: [NutriSnap Demo](https://www.youtube.com/watch?v=YOUR_VIDEO_ID)
 
-2. Start the app
+---
 
-   ```bash
-    npx expo start
-   ```
+## 📸 Features
 
-In the output, you'll find options to open the app in a
+- Open camera and click photo of any food item
+- Detect:
+  - 🍱 Food name(s)
+  - 📏 Portion size
+  - 🍽️ Serving size
+- Get detailed **Nutrition Facts (per portion)**:
+  - 🔥 Calories
+  - 💪 Protein
+  - 🍞 Carbohydrates
+  - 🥑 Fats
+  - 🌾 Fiber
+  - 🍭 Sugar
+  - 🧂 Sodium
+  - ❤️ Cholesterol
+- Additional notes about the food and its contents
+- Smooth and intuitive UI
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+---
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## 🚀 Tech Stack
 
-## Get a fresh project
+- **React Native (Expo)** — Cross-platform mobile development
+- **Gemini API** — AI-powered image and text analysis
+- **React Navigation** — App navigation
+- **Expo Camera** — Capturing food images
+- **Custom Components** — Clean and modular UI
+- **State Management** — (React context or any library you use)
 
-When you're ready, run:
+---
+
+## 🖼️ Screenshots
+
+### 📍 Homepage
+![Homepage](./assets/homepage.png)
+
+> Add more screenshots if you like (upload to `/assets` folder)
+
+---
+
+## 🛠️ Installation
 
 ```bash
-npm run reset-project
+git clone https://github.com/yourusername/nutrisnap.git
+cd nutrisnap
+npm install
+npx expo start
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+---
 
-## Learn more
+## 🧠 How It Works
 
-To learn more about developing your project with Expo, look at the following resources:
+1. You open the app and click a photo of any food item.
+2. The image is sent to **Gemini API** for analysis.
+3. It returns:
+   - 🍱 Food name(s)
+   - 📏 Portion + Serving size
+   - 🧾 Nutritional facts
+   - 🧠 Extra notes about the food
+4. The data is displayed in a clean, readable format for the user.
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+---
 
-## Join the community
+## 🤝 Contributing
+Feel free to submit issues or pull requests to improve the application. Contributions are always welcome!
 
-Join our community of developers creating universal apps.
+---
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+## Author 👨‍💻
+Developed by **[Tushar Shinde](https://github.com/Tushar-Shinde31)**. Connect with me on [LinkedIn](https://www.linkedin.com/in/tushar-shinde-262335257/).
