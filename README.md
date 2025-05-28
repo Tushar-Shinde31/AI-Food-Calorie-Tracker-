@@ -53,6 +53,27 @@ npx expo start
 
 ---
 
+### ⚠️ Expo SDK Compatibility
+
+> **Note:** This project was built using an older version of Expo.  
+> To ensure compatibility, please install the matching versions:
+
+- `expo-router@~4.0.21`
+- `react-native@0.76.9`
+
+If you're seeing Metro Bundler warnings, run the following commands:
+
+```bash
+npm install expo-router@~4.0.21 react-native@0.76.9
+```
+
+Then start the project with:
+
+```bash
+npx expo start -c
+```
+
+
 ## 🧠 How It Works
 
 1. You open the app and click a photo of any food item.
@@ -67,7 +88,7 @@ npx expo start
 ---
 
 ## 🤝 Contributing
-Feel free to submit issues or pull requests to improve the application. Contributions are always welcome!
+Feel free to submit issues or pull requests to improve the application. Contributions are always welcome!!!
 
 ---
 
